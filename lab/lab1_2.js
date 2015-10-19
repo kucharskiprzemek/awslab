@@ -5,7 +5,7 @@ AWS.config.loadFromPath('./config.json');
 
 var task =  function(request, callback){
 
-	callback( NULL, "czy to dziala?")
+	callback( null, "czy to dziala?")
 }
 
 exports.lab = task
