@@ -1,8 +1,7 @@
 //stub for lab 1_2
 var AWS = require('aws-sdk');
-var ec2 = new AWS.EC2();
 AWS.config.loadFromPath('./config.json');
-
+var ec2 = new AWS.EC2();
 var task =  function(request, callback){
 
 	callback( null, "czy to dziala?")
